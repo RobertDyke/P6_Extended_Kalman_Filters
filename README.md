@@ -1,3 +1,13 @@
+# README.md
+
+The critical code is in kalman_filter.cpp. As the name suggests it describes the kalman filter used here. The variables for the Kalman Filter are in FusionEKF.cpp. Main.cpp connects to the simulator via port 4567 using JSON and feeds data back and forth from the simulator. 
+
+There were lots of problems trying to implement this on Windows 8.1.  I eventually bit the bullet and set up an Ubuntu virtual machine hosted on Windows 8.1. This worked. I have not talked to anyone who has succeeded building this in a Windows environment.
+
+
+
+Original Udacity README:
+
 # Extended Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
